@@ -1,8 +1,7 @@
 .main {
-  padding: 19px 22px;
-  background: linear-gradient(rgba(30, 30, 30, 0.67)),
+  background-image: linear-gradient(rgba(30, 30, 30, 0.67)),
     url("../images/main-bg-img.png");
-  height: 910px;
+  min-height: 910px;
   @extend %bg-img-base;
   border-radius: 20px;
   flex-direction: column;
@@ -14,7 +13,7 @@
       width: 70px;
       height: 70px;
       transition: all 0.4s ease-in;
-      &:hover{
+      &:hover {
         transform: scale(1.2);
       }
     }
@@ -77,7 +76,7 @@
     }
   }
   .main-content {
-    height: 372px;
+    min-height: 372px;
     h1,
     h3,
     p {
@@ -99,7 +98,7 @@
     }
     .achievements {
       width: 185px;
-      height: 372px;
+      min-height: 372px;
       flex-direction: column;
       justify-content: space-between;
       h3 {
@@ -107,6 +106,17 @@
       }
       p {
         font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    .main-content {
+      flex-direction: column;
+      padding-bottom: 20px;
+      h1{
+        text-align: center;
       }
     }
   }

@@ -6,11 +6,11 @@ h3 {
   font-family: "ADLaM Display", system-ui;
 }
 body {
-  padding: 19p 8px;
+  padding: 19px 8px;
   font-family: "Inter", sans-serif;
 }
 .container {
-  max-width: 1247px;
+  max-width: 1247px !important;
 }
 %bg-img-base {
   background-position: center;
@@ -22,4 +22,7 @@ ul {
 }
 a {
   text-decoration: none !important;
+}
+.rounded-4{
+  border-radius: 10px;
 }
