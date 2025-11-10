@@ -1,0 +1,105 @@
+.hotel-list {
+  margin-top: 93px;
+  flex-direction: column;
+  .sec-header {
+    min-height: 105px;
+    margin-bottom: 68px;
+    h2 {
+      width: 487px;
+      font-size: 48px;
+    }
+    div {
+      width: 385px;
+      p {
+        font-size: 20px;
+      }
+      .search-form {
+        input {
+          outline: none;
+          width: 100%;
+          border-radius: 20px;
+          border: #686868 1px solid;
+          padding: 17px 39px;
+          background-image: url("../images/search-icon.svg");
+          background-position: right 38px center;
+          background-repeat: no-repeat;
+          background-size: 30px;
+        }
+      }
+    }
+  }
+  .row {
+    .hotel-list-card {
+      flex-direction: column;
+      row-gap: 25px;
+      display: flex;
+      .img-container {
+        height: 230px;
+        border-radius: 10px;
+      }
+      .card-text {
+        flex-direction: column;
+        row-gap: 10px;
+        img {
+          width: 110px;
+          height: 22px;
+        }
+      }
+      .bedroom-img {
+        background-image: url("../images/bedroom-img.png");
+        @extend %bg-img-base;
+      }
+      .library-img {
+        background-image: url("../images/library-img.png");
+        @extend %bg-img-base;
+      }
+      .kitchen-img {
+        background-image: url("../images/kitchen-img.png");
+        @extend %bg-img-base;
+      }
+      .living-room-standard {
+        background-image: url("../images/living-room-standard.png");
+        @extend %bg-img-base;
+      }
+      .living-room-luxury {
+        background-image: url("../images/living-room-luxury.png");
+        @extend %bg-img-base;
+      }
+      .living-room-white {
+        background-image: url("../images/living-room-white.png");
+        @extend %bg-img-base;
+      }
+    }
+  }
+
+  .view-more-btn {
+    background-color: blue;
+    width: 234px;
+    height: 56px;
+    color: #fff;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 18px 61px;
+    margin-top: 90px;
+    transition: transform, box-shadow 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+      background-color: #000;
+      box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.65);
+      -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.65);
+      -moz-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.65);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .sec-header {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    h2,
+    p {
+      text-align: center;
+    }
+  }
+}

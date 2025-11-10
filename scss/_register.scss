@@ -7,7 +7,7 @@
       width: 404px;
       flex-direction: column;
       row-gap: 60px;
-      form {
+      .registration-form {
         flex-direction: column;
         row-gap: 30px;
         input {
@@ -76,11 +76,11 @@
     background-position: center;
     .sign-up-wrapper {
       width: 100% !important;
-      h1{
+      h1 {
         color: #fff;
       }
     }
-    .img-container{
+    .img-container {
       display: none !important;
     }
   }
