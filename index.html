@@ -6,6 +6,10 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link
+      href="https://kenwheeler.github.io/slick/slick/slick-theme.css"
+      rel="stylesheet"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -20,78 +24,78 @@
     ></script>
     <main id="about" class="hero-section">
       <div class="main-area d-flex">
-      <header
-        class="container d-flex justify-content-between align-items-center"
-        id="home"
-      >
-        <a href="https://geolab.edu.ge/" target="_blank">
-          <img src="./images/geolab-logo.svg" alt="geolab" />
-        </a>
-        <div
-          class="header-links d-flex justify-content-lg-between align-items-center justify-content-center"
+        <header
+          class="container d-flex justify-content-between align-items-center"
+          id="home"
         >
-          <nav>
-            <ul class="d-lg-flex d-none p-0 m-0">
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About us</a>
-              </li>
-              <li>
-                <a href="#featured">Featured</a>
-              </li>
-              <li>
-                <a href="#explore">Explore</a>
-              </li>
-              <li>
-                <a href="#reviews">Reviews</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="d-sm-flex align-items-center d-none">
-            <a href="./registration.html" class="sign-up-btn">Sign up</a>
-            <a href="./registration.html" class="registration-btn"
-              >Registration</a
-            >
+          <a href="https://geolab.edu.ge/" target="_blank">
+            <img src="./images/geolab-logo.svg" alt="geolab" />
+          </a>
+          <div
+            class="header-links d-flex justify-content-lg-between align-items-center justify-content-center"
+          >
+            <nav>
+              <ul class="d-lg-flex d-none p-0 m-0">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About us</a>
+                </li>
+                <li>
+                  <a href="#featured">Featured</a>
+                </li>
+                <li>
+                  <a href="#explore">Explore</a>
+                </li>
+                <li>
+                  <a href="#reviews">Reviews</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="d-sm-flex align-items-center d-none">
+              <a href="./registration.html" class="sign-up-btn">Sign up</a>
+              <a href="./registration.html" class="registration-btn"
+                >Registration</a
+              >
+            </div>
+          </div>
+          <img
+            src="./images/burger-menu-white.svg"
+            alt="menu"
+            class="d-lg-none d-block"
+          />
+        </header>
+        <div
+          class="main-content container d-flex align-items-center justify-content-between"
+        >
+          <div class="main-text d-flex justify-content-center">
+            <h1>Stay Quietly, With No Worries</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="achievements d-flex">
+            <div>
+              <h3>12K+</h3>
+              <p>Satisfied Visitors</p>
+            </div>
+            <div>
+              <h3>4.5K+</h3>
+              <p>Amazing TourGuide</p>
+            </div>
+            <div>
+              <h3>2K+</h3>
+              <p>Special Travel Trip</p>
+            </div>
           </div>
         </div>
-        <img
-          src="./images/burger-menu-white.svg"
-          alt="menu"
-          class="d-lg-none d-block"
-        />
-      </header>
-      <div
-        class="main-content container d-flex align-items-center justify-content-between"
-      >
-        <div class="main-text d-flex justify-content-center">
-          <h1>Stay Quietly, With No Worries</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-        <div class="achievements d-flex">
-          <div>
-            <h3>12K+</h3>
-            <p>Satisfied Visitors</p>
-          </div>
-          <div>
-            <h3>4.5K+</h3>
-            <p>Amazing TourGuide</p>
-          </div>
-          <div>
-            <h3>2K+</h3>
-            <p>Special Travel Trip</p>
-          </div>
-        </div>
-      </div>
       </div>
     </main>
     <section class="top-hotels container" id="featured">
@@ -220,5 +224,113 @@
       </div>
       <button class="view-more-btn">View More</button>
     </section>
+    <section id="slick" class="p-1 bg-dark">
+      <div class="slider multiple-items container">
+        <div class="slider_item">
+          <div class="card-text-reviews">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex align-items-center reviewer">
+              <img src="./images/review-person-img.svg" alt="reviewer" />
+              <div>
+                <h6>Steven Wart</h6>
+                <p>USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-container-reviews card-1">
+            <div class="card-text justify-content-end d-flex">
+              <h4>Oasis Sands Resort Homestay</h4>
+              <div class="d-flex align-items-center">
+                <p>Plam Jumeirah, Dubai</p>
+                <img src="./images/4-stars.svg" alt="stars" />
+                <p>(218 visitors)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       <div class="slider_item">
+          <div class="card-text-reviews">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex align-items-center reviewer">
+              <img src="./images/review-person-img.svg" alt="reviewer" />
+              <div>
+                <h6>Steven Wart</h6>
+                <p>USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-container-reviews card-2">
+            <div class="card-text justify-content-end d-flex">
+              <h4>Oasis Sands Resort Homestay</h4>
+              <div class="d-flex align-items-center">
+                <p>Plam Jumeirah, Dubai</p>
+                <img src="./images/4-stars.svg" alt="stars" />
+                <p>(218 visitors)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider_item">
+          <div class="card-text-reviews">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex align-items-center reviewer">
+              <img src="./images/review-person-img.svg" alt="reviewer" />
+              <div>
+                <h6>Steven Wart</h6>
+                <p>USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-container-reviews card-3">
+            <div class="card-text justify-content-end d-flex">
+              <h4>Oasis Sands Resort Homestay</h4>
+              <div class="d-flex align-items-center">
+                <p>Plam Jumeirah, Dubai</p>
+                <img src="./images/4-stars.svg" alt="stars" />
+                <p>(218 visitors)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider_item">
+          <div class="card-text-reviews">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex align-items-center reviewer">
+              <img src="./images/review-person-img.svg" alt="reviewer" />
+              <div>
+                <h6>Steven Wart</h6>
+                <p>USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-container-reviews card-4">
+            <div class="card-text justify-content-end d-flex">
+              <h4>Oasis Sands Resort Homestay</h4>
+              <div class="d-flex align-items-center">
+                <p>Plam Jumeirah, Dubai</p>
+                <img src="./images/4-stars.svg" alt="stars" />
+                <p>(218 visitors)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
